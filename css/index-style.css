@@ -1,1 +1,93 @@
 @import url(reset.css);
+
+/* Initial Setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* Header section */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+
+header>a {
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+    line-height: 24px;
+}
+
+#images {
+    padding: 0 15px;
+}
+
+#apps {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 100%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#apps:hover {
+    background-color: rgba(60, 64, 64, 0.08);
+}
+
+#apps svg {
+    width: 24px;
+    height: 24px;
+    fill: #5f6368;
+}
+
+#sign-in {
+    font-size: 14px;
+    line-height: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(26, 115, 232);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 23px;
+    margin: 0 12px 0 8px;
+    min-width: 96px;
+    text-align: center;
+}
+
+#sign-in:hover,
+#sign-in:focus,
+#sign-in:active {
+    text-decoration: none;
+    background-color: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, 0.15), 0 1px 2px 0 rgba(60, 64, 67, 0.3);
+}
