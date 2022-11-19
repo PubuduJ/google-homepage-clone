@@ -1,0 +1,84 @@
+/* @media all and (min-width: 680px) and (max-width: 1500px) {
+    #result-body {
+        left: 1%;
+        width: 98%;
+    }
+}
+
+@media all and (min-width: 386px) and (max-width: 479px) {
+    #form-input {
+        width: 260px;
+    }
+    #form-input input {
+        min-width: 10px;
+    }
+}
+
+@media all and (min-width: 370px) and (max-width: 385px) {
+    #form-input {
+        width: 240px;
+    }
+    #form-input input {
+        min-width: 10px;
+    }
+} */
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    #form-input {
+        width: 700px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #form-input {
+        width: 600px;
+    }
+}
+
+@media all and (min-width: 680px) and (max-width: 767px) {
+    #form-input {
+        width: 500px;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 679px) {
+    #form-input {
+        width: 400px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 575px) {
+    #form-input {
+        width: 300px;
+    }
+}
+
+@media all and (min-width: 420px) and (max-width: 479px) {
+    #form-input {
+        width: 270px;
+    }
+}
+
+@media all and (min-width: 385px) and (max-width: 419px) {
+    #form-input {
+        width: 260px;
+    }
+}
+
+@media all and (min-width: 365px) and (max-width: 384px) {
+    #form-input {
+        width: 240px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 364px) {
+    #form-input {
+        width: 230px;
+    }
+}
+
+@media all and (min-width: 0) and (max-width: 319px) {
+    #form-input {
+        width: 200px;
+    }
+}

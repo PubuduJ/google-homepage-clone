@@ -204,7 +204,7 @@ main {
 
 #lang-section a {
     padding: 0 3px;
-    color: #1a0dab; 
+    color: #1a0dab;
 }
 
 /* Footer section */
@@ -224,20 +224,20 @@ footer {
     color: #70757a;
 }
 
-#nav-links{
+#nav-links {
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#nav-links div{
+#nav-links div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#nav-links a{
+#nav-links a {
     display: block;
     font-size: 14px;
     padding: 15px;
