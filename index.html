@@ -28,7 +28,7 @@
         <div id="google-logo">
             <img src="img/google-logo.png" alt="Google logo">
         </div>
-        <form id="search-form" action="#">
+        <form id="search-form" action="search-result.html" method="GET">
             <div id="form-input">
                 <div id="search-icon">
                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@
                         </path>
                     </svg>
                 </div>
-                <input id="search-bar" title="search" type="text">
+                <input id="search-bar" title="search" type="text" name="q">
                 <div id="mic-image-icons">
                     <svg title="Search by voice" class="goxjub" focusable="false" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -57,8 +57,8 @@
                 </div>
             </div>
             <div id="button-section">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
+                <button type="submit">Google Search</button>
+                <button type="button">I'm Feeling Lucky</button>
             </div>
         </form>
         <div id="lang-section">

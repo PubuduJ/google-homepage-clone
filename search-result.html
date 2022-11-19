@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+
+<body>
+    <h1>Google Search Result</h1>
+    <input id="txt-search" type="text">
+    <script defer async src="https://cse.google.com/cse.js?cx=e7a4b606282364360">
+    </script>
+    <div class="gcse-searchresults-only"></div>
+    <script defer>
+        let params = new URLSearchParams(location.search);
+        document.querySelector("#txt-search").value = params.has('q') ? params.get('q') : "";
+    </script>
+</body>
+
+</html>
