@@ -201,3 +201,41 @@ header>a {
     padding: 0 3px;
     color: #1a0dab; 
 }
+
+/* Footer section */
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+}
+
+#country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+#nav-links{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#nav-links div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#nav-links a{
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}

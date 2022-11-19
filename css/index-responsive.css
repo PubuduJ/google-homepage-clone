@@ -2,23 +2,37 @@
     /* No need to specify this, because default stylings are set to the Desktop resolution */
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 680px) and (max-width: 767px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 576px) and (max-width: 679px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 480px) and (max-width: 575px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 479px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
 @media all and (min-width: 0) and (max-width: 319px) {
-    
+    #nav-links {
+        justify-content: space-evenly;
+    }
 }
