@@ -1,28 +1,3 @@
-/* @media all and (min-width: 680px) and (max-width: 1500px) {
-    #result-body {
-        left: 1%;
-        width: 98%;
-    }
-}
-
-@media all and (min-width: 386px) and (max-width: 479px) {
-    #form-input {
-        width: 260px;
-    }
-    #form-input input {
-        min-width: 10px;
-    }
-}
-
-@media all and (min-width: 370px) and (max-width: 385px) {
-    #form-input {
-        width: 240px;
-    }
-    #form-input input {
-        min-width: 10px;
-    }
-} */
-
 @media all and (min-width: 992px) and (max-width: 1199px) {
     #form-input {
         width: 700px;
