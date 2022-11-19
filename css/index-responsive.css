@@ -1,17 +1,4 @@
-@media all and (min-width: 1200px) and (max-width: 1400px) {
-    /* No need to specify this, because default stylings are set to the Desktop resolution */
-}
-@media all and (min-width: 992px) and (max-width: 1199px) {
-    #nav-links {
-        justify-content: space-evenly;
-    }
-}
-@media all and (min-width: 768px) and (max-width: 991px) {
-    #nav-links {
-        justify-content: space-evenly;
-    }
-}
-@media all and (min-width: 680px) and (max-width: 767px) {
+@media all and (min-width: 680px) and (max-width: 1199px) {
     #nav-links {
         justify-content: space-evenly;
     }
@@ -20,19 +7,53 @@
     #nav-links {
         justify-content: space-evenly;
     }
+    #google-logo img {
+        width: 260px;
+    }
 }
 @media all and (min-width: 480px) and (max-width: 575px) {
     #nav-links {
         justify-content: space-evenly;
     }
+    #google-logo img {
+        width: 250px;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 479px) {
+    header {
+        height: 8vh;
+    }
+    main {
+        padding-top: 40px;
+        height: calc(100vh - 33vh);
+    }
     #nav-links {
         justify-content: space-evenly;
     }
+    footer {
+        height: 35vh;
+        position: relative;
+    }
+    #google-logo img {
+        width: 240px;
+    }
 }
 @media all and (min-width: 0) and (max-width: 319px) {
+    header {
+        height: 8vh;
+    }
+    main {
+        padding-top: 40px;
+        height: calc(100vh - 33vh);
+    }
     #nav-links {
         justify-content: space-evenly;
+    }
+    footer {
+        height: 35vh;
+        position: relative;
+    }
+    #google-logo img {
+        width: 230px;
     }
 }
