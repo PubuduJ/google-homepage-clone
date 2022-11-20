@@ -1,0 +1,1 @@
+alert("This is not the original web page of Google.lk. This was designed to practice and improve my web desiging skills. The desgin layout and images are copyright to their respective owners.");
