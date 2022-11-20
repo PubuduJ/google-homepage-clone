@@ -3,7 +3,7 @@
 ### Responsive design of the Google homepage
 
 The Google.lk homepage was designed to practice and develop my 
-web design skills. This website was developed with pure HTML and CSS. 
+web design skills. This webpage was developed with pure HTML and CSS. 
 CSS media queries are used to make the webpage responsive.
 Search results for the entered inputs are provided to the user by a 
 [Google programmable search engine](https://programmablesearchengine.google.com/about/).
