@@ -10,16 +10,16 @@ Google programmable search engine.
 
 #### Images of the user interfaces
 1. Home page of desktop UI<br>
-   <img src="assets/desktop-home.png" alt="desktop-home" width="500px"/>
+   <img src="assets/desktop-home.png" alt="desktop-home" style="border:1px solid black;" width="500px"/>
 
 2. Search result page of desktop UI<br>
-   <img src="assets/desktop-search.png" alt="desktop-search" width="500px"/>
+   <img src="assets/desktop-search.png" alt="desktop-search" style="border:1px solid black;" width="500px"/>
 
 3. Home page of mobile UI<br>
-   <img src="assets/mobile-home.jpg" alt="mobile-home" width="250px"/>
+   <img src="assets/mobile-home.jpg" alt="mobile-home" style="border:1px solid black;" width="250px"/>
 
 4. Search result page of mobile UI<br>
-   <img src="assets/mobile-search.jpg" alt="mobile-search" width="250px"/>
+   <img src="assets/mobile-search.jpg" alt="mobile-search" style="border:1px solid black;" width="250px"/>
 
 ## Used Technologies
 
