@@ -2,8 +2,8 @@
 
 ### Responsive design of the Google homepage
 
-The Google.lk homepage was designed to practice and develop my 
-web design skills. This webpage was developed with pure HTML and CSS. 
+Google.lk homepage was designed to practice and develop my 
+web design skills. This webpage was developed with pure HTML and CSS technologies. 
 CSS media queries are used to make the webpage responsive.
 Search results for the entered inputs are provided to the user by a 
 [Google programmable search engine](https://programmablesearchengine.google.com/about/).
@@ -36,7 +36,7 @@ project to your local machine.
 1. Clone the project using `git clone https://github.com/PubuduJ/google-homepage-clone.git` terminal command.
 2. Open the project from **Visual Studio Code**.
 3. Run the project using **Live Server**
-- Live server can be installed to the VS Code from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- Live server can be installed to the VS Code as a extension. Get more details about the Live Server from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## Credits
 This project was carried out under the guidance of the [IJSE](https://www.ijse.lk/) Direct Entry Program 9.
